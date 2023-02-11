@@ -1,3 +1,14 @@
+# En este ejercicio vais a cear la clase Vehiculo la cual tendrá los siguientes atributos:
+    # color
+    # ruedas
+    # puertas
+    
+# Por otro lado, creareis la clase Coche la cual heredará de Vehiculo y tendrá los siguintes atributos:
+#     velocidad
+#     cilindrada
+    
+# por último, tendrás que crear un objeto de la clase coche y motrarlo por consola.
+
 class Vehiculo():
     def __init__(self,color,ruedas,puertas):
         self.color = color
